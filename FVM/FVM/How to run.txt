@@ -1,0 +1,7 @@
+'fvmV2' is the file to run to compute phi for all electrodes,
+however, it depends on precomputed distances AllDistance,
+which we get by running 'fvm-for-precomputing-distance'.
+They both depend on the triangulation function available 
+from Matlab 2015 and above.
+'fvm-for-precomputing-distance' also depends on the function 'getDistance'. 
+The data needed to run this program are 'mesh.mat' and 'AllDistance.mat'.
